@@ -311,4 +311,61 @@ header .subheader button.subheader_btn {
           transform: translateX(-50%);
   cursor: pointer;
 }
+
+.car {
+  min-height: 896px;
+  background: url("../img/car_bg.jpg") center center/cover no-repeat;
+  padding: 57px 0 138px 0;
+}
+
+.car_title {
+  margin: 0 auto;
+  width: 112px;
+  height: 24px;
+  background-color: #ffffff;
+  padding-top: 8px;
+}
+
+.car_title_text {
+  color: #000000;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.car_header {
+  color: #ffffff;
+  margin-top: 32px;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.car_descr {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 19px;
+}
+
+.car_img {
+  width: 759px;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+.car_benefits {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 4px;
+}
 /*# sourceMappingURL=style.min.css.map */
