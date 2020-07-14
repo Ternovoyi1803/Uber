@@ -100,6 +100,11 @@ header .subheader button.subheader_btn {
   border-radius: 4px;
 }
 
+header .subheader button.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
 .promo {
   background: url("../img/header_bg.jpg") center center/cover no-repeat;
   min-height: 800px;
@@ -151,6 +156,11 @@ header .subheader button.subheader_btn {
   text-transform: uppercase;
   margin: 0 auto;
   margin-top: 118px;
+}
+
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
 }
 
 .title {
@@ -312,6 +322,34 @@ header .subheader button.subheader_btn {
   cursor: pointer;
 }
 
+.mobile_item_round:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.mobile_item_round:after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1eacc7;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.mobile_item_round:hover:before, .mobile_item_round:hover:after {
+  background-color: #ff5656;
+}
+
 .car {
   min-height: 896px;
   background: url("../img/car_bg.jpg") center center/cover no-repeat;
@@ -367,5 +405,74 @@ header .subheader button.subheader_btn {
   line-height: 24px;
   text-align: center;
   margin-top: 4px;
+}
+
+.header_margin {
+  margin-top: 33px;
+}
+
+.conditions {
+  min-height: 920px;
+  padding: 68px 0 94px 0;
+}
+
+.conditions_block {
+  margin: 33px 0;
+}
+
+.conditions_block_nmb {
+  margin-bottom: 0;
+}
+
+.conditions_subheader_blue, .conditions_subheader_red {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.conditions_subheader_blue {
+  color: #1ca8c3;
+}
+
+.conditions_subheader_red {
+  color: #ff5656;
+}
+
+.conditions_list_blue, .conditions_list_red {
+  margin-top: 22px;
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+.conditions_list_blue li, .conditions_list_red li {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.conditions_list_blue li, .conditions_list_red li {
+  position: relative;
+}
+
+.conditions_list_blue li:before, .conditions_list_red li:before {
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  content: '';
+  display: block;
+  width: 21px;
+  height: 20px;
+}
+
+.conditions_list_blue li:before {
+  background: url("../icons/tick_blue.png") center center/cover no-repeat;
+}
+
+.conditions_list_red li:before {
+  background: url("../icons/tick_red.png") center center/cover no-repeat;
+}
+
+.conditions_salary {
+  color: #1ca8c3;
+  font-weight: 300;
 }
 /*# sourceMappingURL=style.min.css.map */
