@@ -215,8 +215,9 @@ header
 		width: 320px
 		height: 280px
 		padding: 92px 0 35px 0
-		margin-bottom: 19px
 		position: relative
+		margin: 0 auto
+		margin-bottom: 19px
 
 		&_1
 			background: url('../img/mobile_1.jpg') center center/cover no-repeat
@@ -275,13 +276,7 @@ header
 				&:before, &:after
 					background-color: $second-color
 				
-
-.car
-	min-height: 896px
-	background: url('../img/car_bg.jpg') center center/cover no-repeat
-	padding: 57px 0 138px 0
-
-	&_title
+.title_white
 		margin: 0 auto
 		width: 112px
 		height: 24px
@@ -295,21 +290,26 @@ header
 			text-transform: uppercase
 			text-align: center
 	
-	&_header
-		color: #ffffff
-		margin-top: 32px
-		font-size: 38px
-		line-height: 38px
-		font-weight: 700
-		text-transform: uppercase
-		text-align: center
+.header_white
+	color: #ffffff
+	margin-top: 32px
+	font-size: 38px
+	line-height: 38px
+	font-weight: 700
+	text-transform: uppercase
+	text-align: center
 
-	&_descr
-		color: #ffffff
-		font-size: 17px
-		font-weight: 400
-		text-align: center
-		margin-top: 19px
+.descr_white
+	color: #ffffff
+	font-size: 17px
+	font-weight: 400
+	text-align: center
+	margin-top: 19px
+
+.car
+	min-height: 896px
+	background: url('../img/car_bg.jpg') center center/cover no-repeat
+	padding: 57px 0 138px 0
 	
 	&_img
 		width: 759px
@@ -380,3 +380,86 @@ header
 	&_salary
 		color: #1ca8c3
 		font-weight: 300
+
+.world
+	padding: 49px 0
+	min-height: 717px
+	background: url('../img/world_bg.jpg') center center/cover no-repeat
+	&_subheader
+		margin-top: 486px
+		text-align: center
+		a
+			color: #1fbad6
+			font-size: 15px
+			font-weight: 400
+			text-transform: uppercase
+
+
+
+footer
+	position: relative
+	height: 150px
+	padding: 14px 0 30px 0
+	.divider
+		margin: 0 auto
+		width: 299px
+		height: 5px
+		background-color: #1fbad6
+	.list_links
+		list-style-type: none
+		margin: 0 auto
+		padding-left: 0
+		margin-top: 32px
+		padding-left: 0
+		display: flex
+		justify-content: space-around
+		padding: 0 67px
+		li
+			line-height: 1
+			display: inline-block
+			a
+				color: #070716
+				font-size: 15px
+				line-height: 15px
+				font-weight: 300
+				text-transform: uppercase
+	.list_sublinks
+		list-style-type: none
+		margin-bottom: 0px
+		margin-top: 10px
+		padding-left: 0
+		display: flex
+		justify-content: space-around
+		li
+			line-height: 1
+			display: inline-block
+			a
+				color: #999999
+				font-size: 11px
+				line-height: 11px
+				font-weight: 300
+				text-transform: uppercase
+	.list_langs
+		list-style-type: none
+		margin-bottom: 0px
+		margin-top: 13px
+		padding-left: 0
+		display: flex
+		justify-content: space-around
+		li
+			line-height: 1
+			display: inline-block
+			a
+				color: #1fbad6
+				font-size: 11px
+				line-height: 11px
+				font-weight: 400
+				text-transform: uppercase
+	.apps
+		position: absolute
+		top: 50px
+		right: 23px
+
+.divider_end
+	background-color: #000
+	height: 10px

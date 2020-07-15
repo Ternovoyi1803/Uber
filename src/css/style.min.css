@@ -262,8 +262,9 @@ header .subheader button.subheader_btn:hover {
   width: 320px;
   height: 280px;
   padding: 92px 0 35px 0;
-  margin-bottom: 19px;
   position: relative;
+  margin: 0 auto;
+  margin-bottom: 19px;
 }
 
 .mobile_item_1 {
@@ -350,13 +351,7 @@ header .subheader button.subheader_btn:hover {
   background-color: #ff5656;
 }
 
-.car {
-  min-height: 896px;
-  background: url("../img/car_bg.jpg") center center/cover no-repeat;
-  padding: 57px 0 138px 0;
-}
-
-.car_title {
+.title_white {
   margin: 0 auto;
   width: 112px;
   height: 24px;
@@ -364,7 +359,7 @@ header .subheader button.subheader_btn:hover {
   padding-top: 8px;
 }
 
-.car_title_text {
+.title_white_text {
   color: #000000;
   font-size: 11px;
   line-height: 11px;
@@ -373,7 +368,7 @@ header .subheader button.subheader_btn:hover {
   text-align: center;
 }
 
-.car_header {
+.header_white {
   color: #ffffff;
   margin-top: 32px;
   font-size: 38px;
@@ -383,12 +378,18 @@ header .subheader button.subheader_btn:hover {
   text-align: center;
 }
 
-.car_descr {
+.descr_white {
   color: #ffffff;
   font-size: 17px;
   font-weight: 400;
   text-align: center;
   margin-top: 19px;
+}
+
+.car {
+  min-height: 896px;
+  background: url("../img/car_bg.jpg") center center/cover no-repeat;
+  padding: 57px 0 138px 0;
 }
 
 .car_img {
@@ -474,5 +475,124 @@ header .subheader button.subheader_btn:hover {
 .conditions_salary {
   color: #1ca8c3;
   font-weight: 300;
+}
+
+.world {
+  padding: 49px 0;
+  min-height: 717px;
+  background: url("../img/world_bg.jpg") center center/cover no-repeat;
+}
+
+.world_subheader {
+  margin-top: 486px;
+  text-align: center;
+}
+
+.world_subheader a {
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer {
+  position: relative;
+  height: 150px;
+  padding: 14px 0 30px 0;
+}
+
+footer .divider {
+  margin: 0 auto;
+  width: 299px;
+  height: 5px;
+  background-color: #1fbad6;
+}
+
+footer .list_links {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
+  margin-top: 32px;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 67px;
+}
+
+footer .list_links li {
+  line-height: 1;
+  display: inline-block;
+}
+
+footer .list_links li a {
+  color: #070716;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+footer .list_sublinks {
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .list_sublinks li {
+  line-height: 1;
+  display: inline-block;
+}
+
+footer .list_sublinks li a {
+  color: #999999;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+footer .list_langs {
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-top: 13px;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .list_langs li {
+  line-height: 1;
+  display: inline-block;
+}
+
+footer .list_langs li a {
+  color: #1fbad6;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer .apps {
+  position: absolute;
+  top: 50px;
+  right: 23px;
+}
+
+.divider_end {
+  background-color: #000;
+  height: 10px;
 }
 /*# sourceMappingURL=style.min.css.map */
