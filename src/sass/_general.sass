@@ -34,6 +34,9 @@ header
 				font-size: 15px
 				font-weight: 300
 
+	nav .hamburger
+		display: none
+
 	.subheader
 		height: 84px
 		background-color: rgba(0, 0, 0, 0.6)
@@ -60,6 +63,7 @@ header
 	  		text-align: right
 
 		&_phone
+			display: block
 			color: #ffffff
 			font-size: 22px
 			font-weight: 400
@@ -67,7 +71,6 @@ header
 			margin-top: 8px
 			text-align: right
 			line-height: 26px
-			display: block
 
 		button.subheader_btn
 			width: 172px
@@ -101,11 +104,12 @@ header
 	&_subheader
 		color: #ffffff
 		font-size: 36px
-		line-height: 50px
+		line-height: 36px
+		margin: 0
+		margin-top: 30px
 		text-transform: uppercase
 		font-weight: 700
 		text-align: center
-		margin: 0
 
 	&_descr
 		color: #ffffff
@@ -304,8 +308,6 @@ header
 	padding: 57px 0 138px 0
 	
 	&_img
-		width: 759px
-		height: 480px
 		margin: 0 auto
 		margin-top: 56px
 
@@ -378,7 +380,7 @@ header
 	min-height: 717px
 	background: url('../img/world_bg.jpg') center center/cover no-repeat
 	&_subheader
-		margin-top: 486px
+		margin-top: 22px
 		text-align: center
 		a
 			color: #1fbad6
@@ -472,3 +474,7 @@ footer
 .divider_end
 	background-color: #000
 	height: 10px
+
+header
+	.xs-visible
+		display: none
