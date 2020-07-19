@@ -18,7 +18,6 @@
 	
 	.mobile
 		&_item
-			width: 300px
 			&_header
 				font-size: 21px
 	footer
@@ -69,14 +68,18 @@
 				line-height: 21px
 	.car
 		&_img
-			width: 100%
+			max-width: 100%
 	footer
 		.apps			
-			justify-content: space-around
-			margin-top: 20px
+			justify-content: center
+			a
+				margin: 20px 10px
 		.social			
-			justify-content: space-around
+			justify-content: center
 			margin-top: 20px
+			a
+				margin-left: 10px
+				margin-right: 10px
 		.list_links
 			padding: 0
 			li
@@ -193,8 +196,14 @@
 	header
 		.subheader
 			button.subheader_btn
-				width: 130px
-	
+				width: 130px		
+		nav .menu						
+			.menu_item
+				margin-top: 40px
+				.menu_link
+					font-size: 17px
+					display: block
+					text-align: center
 	.reason
 		padding-top: 20px
 		padding-bottom: 40px
@@ -213,7 +222,7 @@
 		padding-top: 24px
 		padding-bottom: 30px
 	.car
-		padding: 25px 0 0 0
+		padding: 25px 0 33px     0
 		min-height: 390px
 		background-color: #000
 		background-image: none
@@ -245,10 +254,14 @@
 
 	footer
 		.apps			
-			flex-direction: column
-			margin-top: 20px
+			margin: 10px 0
+			justify-content: center
+			a
+				margin: 0 2.5px
 		.social			
-
+			justify-content: center
+			&_link
+				margin-left: 7px
 		.list_links
 			li
 				margin-top: 10px
@@ -257,14 +270,14 @@
 					font-size: 15px
 					font-weight: 400
 
-		.list_sublinks			
+		.list_sublinks
+			flex-wrap: wrap
 			li
-				margin-top: 10px
+				margin: 10px 25px 0 25px
 				a
+					text-align: center
 					font-size: 12px
 		.list_langs
-			flex-direction: column
-			align-items: center
 			li
 				margin-top: 15px
 				a
